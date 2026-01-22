@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, CheckCircle2, Sparkles } from "lucide-react";
+import { ArrowRight, Sparkles } from "lucide-react";
 
 export default function Home() {
   return (
@@ -61,19 +61,9 @@ export default function Home() {
                 </Link>
               </div>
 
-              <div className="pt-8 flex items-center justify-center lg:justify-start gap-8 text-sm text-gray-500">
-                <div className="flex items-center gap-2">
-                  <CheckCircle2 size={16} className="text-purple-600" />
-                  <span>Free Forever</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <CheckCircle2 size={16} className="text-purple-600" />
-                  <span>No Credit Card</span>
-                </div>
-              </div>
             </div>
 
-            <div className="flex-1 relative">
+            <div className="flex-1 relative hidden lg:block">
               <div className="relative z-10 bg-white rounded-2xl shadow-2xl border border-gray-100 p-8 transform rotate-2 hover:rotate-0 transition-all duration-500">
                 <div className="flex items-center gap-2 mb-6 border-b border-gray-100 pb-4">
                   <div className="w-3 h-3 rounded-full bg-red-400"></div>
